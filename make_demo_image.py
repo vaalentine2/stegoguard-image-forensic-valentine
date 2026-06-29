@@ -10,7 +10,7 @@ Path("images").mkdir(exist_ok=True)
 
 # Small valid 16x16 PNG image (pixel-art coin).
 png_data = base64.b64decode(
-    "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAARElEQVR4nM2SQQrAIAwD/f+nHAaDBwdlYZY1lKJk5SsKiIiYuJGxTTsQVzAe+lfLO1v2ZPqqv8jTezXLMAxrUlXqOQ6SN+gPEhNCDvoY2QAAAABJRU5ErkJggg=="
+    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="
 )
 
 if mode == "suspicious":
