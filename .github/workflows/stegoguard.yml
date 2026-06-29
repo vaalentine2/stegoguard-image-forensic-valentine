@@ -13,9 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show lab mode
-        run: cat lab_mode.txt
-
       - name: Create demo image
         run: python make_demo_image.py
 
