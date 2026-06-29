@@ -14,7 +14,7 @@ png_data = base64.b64decode(
 )
 
 if mode == "suspicious":
-    png_data += b"\nPRIVATE_KEY: lolol this is secret.\n"
+    png_data += b"\nCONFIDENTIAL: lolol this is secret.\n"
 
 Path("images/student_image.png").write_bytes(png_data)
 
